@@ -6,8 +6,8 @@
   "repository": "",
   "author": "Fabian Vargas <f_varga@hotmail.com>",
   "scripts": {
-    "build": "concurrently \"webpack -w\"",
-    "start": "webpack"
+    "build": "webpack",
+    "start": "concurrently \"webpack -w\" \"serve build\""
   },
   "dependencies": {
     "react": "^16.2.0",
